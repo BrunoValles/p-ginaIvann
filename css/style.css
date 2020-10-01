@@ -3,15 +3,17 @@
     padding: 0;
 }
 body{
+    /* overflow-y: hidden; */
     font-family: neue-haas-grotesk-display, sans-serif;
 }
 .home{
+    border: 3px solid greenyellow;
     margin-top: 0;
-    height: 100vw;
+    max-height: 100%;
     position: relative;
     padding-bottom: 0%;
-    /* background: url(../img/placeholder.png); */
-    background-color: gray;
+    background: url(../img/placeholder.png);
+    /* background-color: gray; */
     background-position: top center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -89,7 +91,7 @@ body{
     text-indent: 14%;
 }
 .navBar{
-    /* border: 3px solid greenyellow; */
+    border: 3px solid greenyellow;
     width: 70%;
     margin: auto;
     margin-top: 10%;
@@ -98,7 +100,6 @@ body{
 }
 .navBar ul{
     text-align: center;
-    padding-top: 0;
 }
 .navBar ul li{
     display: inline-block;
@@ -116,4 +117,8 @@ body{
 }
 .navBar ul li a:hover{
     text-decoration: underline;
+}
+.prevWork{
+    width: 100vw;
+    background-color:purple;
 }
