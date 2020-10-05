@@ -71,7 +71,7 @@ body{
     text-emphasis: none;
     color: black;
 }
-.btn{
+.greenButton{
     display: block;
     background-color: greenyellow;
     height: 20px;
