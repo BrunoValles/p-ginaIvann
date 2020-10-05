@@ -4,18 +4,17 @@
     box-sizing: border-box;
 }
 body{
-    /* overflow-y: hidden; */
     font-family: neue-haas-grotesk-display, sans-serif;
 }
 .home{
     margin-top: 0;
-    max-height: 100vh;
+    height: 100vh;
     position: relative;
     padding-bottom: 0%;
-    /* background: url(../img/placeholder.png); */
+    background: url(../img/placeholder.png);
     background-color: gray;
     background-position: top center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     flex: 1 1 auto;
 }
@@ -91,12 +90,18 @@ body{
     text-indent: 14%;
 }
 .navBar{
+    transition: 1s;
+    padding-top: 20px;
+    padding-bottom: 100px;
     border: 3px solid greenyellow;
     width: 70%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 0;
     position: sticky;
+    bottom: 10px;
+    z-index: 102;
     top:0;
+    bottom: 0;
 }
 .navBar ul{
     text-align: center;
@@ -119,6 +124,6 @@ body{
     text-decoration: underline;
 }
 .prevWork{
-    width: 100vw;
-    background-color:purple;
+    height: 200vh;
+    background-color:#ffffff;
 }
