@@ -19,7 +19,7 @@ body{
     flex: 1 1 auto;
 }
 
-.home .logo{
+.logo{
     padding-top: 20px;
     margin-left: 20px; 
     font-size: 14px;
@@ -103,12 +103,12 @@ body{
 .navBar{
     padding-top: 20px;
     padding-bottom: 100px;
-    width: 70%;
+    width: 40%;
     margin: auto;
     margin-top: 0;
     position: sticky;
     bottom: 10px;
-    z-index: 102;
+    z-index: 103;
     top:0;
     bottom: 0;
 }
@@ -135,6 +135,135 @@ body{
     text-decoration: underline;
 }
 .prevWork{
-    height: 200vh;
+    height: 300vh;
     background-color:#ffffff;
+}
+.prevWork .wrapper1{
+    width: 25%;
+    height: 20%;
+    border: 1px solid black;
+    position: relative;
+    float: right;
+    margin-right: 10%;
+    background-image: none;
+    z-index: 101;
+}
+.prevWork .wrapper1:hover{
+    transition: 1s;
+    background: url(../img/mail.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 102;
+}
+.prevWork a{
+    padding-bottom: 15px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.prevWork span{
+    font-size: 15px;
+}
+.prevWork .wrapper2{
+    width: 30%;
+    height:15%;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+    margin-left:5%;
+    margin-top: 10%;
+    background-image: none;
+    z-index: 101;
+}
+.prevWork .wrapper2:hover{
+    transition: 1s;
+    background: url(../img/skelleton.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 102;
+}
+.prevWork .wrapper3{
+    width: 20%;
+    height: 17%;
+    border: 1px solid black;
+    position: relative;
+    float: right;
+    margin-right: 30%;
+    background-image: none;
+    margin-top: -3%;
+    z-index: 101;
+}
+.prevWork .wrapper3:hover{
+    transition: 1s;
+    background: url(../img/xkcd_loves_the_discovery_channel.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 102;
+}
+.prevWork .wrapper4{
+    width: 20%;
+    height: 10%;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+    margin-left: 10%;
+    background-image: none;
+    margin-top: 20%;
+    z-index: 101;
+}
+.prevWork .wrapper4:hover{
+    background: url(../img/concert.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 102;
+}
+.prevWork .wrapper4 a{
+    padding-bottom: 15px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.prevWork .wrapper5{
+    width: 20%;
+    height: 25%;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+    margin-left: -5%;
+    background-image: none;
+    margin-top: 27%;
+    z-index: 101;
+}
+.prevWork .wrapper5:hover{
+    transition: 1s;
+    background: url(../img/egg_drop_failure.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 102;
+}
+.prevWork .wrapper6{
+    width: 30%;
+    height: 15%;
+    border: 1px solid black;
+    position: relative;
+    float: right;
+    margin-right: 20%;
+    background-image: none;
+    margin-top: 10%;
+    z-index: 101;
+}
+.prevWork .wrapper6:hover{
+    transition: 1s;
+    background: url(../img/album.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 102;
 }
