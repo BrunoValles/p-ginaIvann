@@ -140,7 +140,7 @@ body{
 }
 .prevWork .wrapper1{
     width: 25%;
-    height: 20%;
+    height: 15%;
     border: 1px solid black;
     position: relative;
     float: right;
@@ -170,7 +170,7 @@ body{
 }
 .prevWork .wrapper2{
     width: 30%;
-    height:15%;
+    height: 10%;
     border: 1px solid black;
     position: relative;
     float: left;
@@ -212,7 +212,7 @@ body{
     float: left;
     margin-left: 10%;
     background-image: none;
-    margin-top: 20%;
+    margin-top: 25%;
     z-index: 101;
 }
 .prevWork .wrapper4:hover{
@@ -233,13 +233,13 @@ body{
 
 .prevWork .wrapper5{
     width: 20%;
-    height: 25%;
+    height: 15%;
     border: 1px solid black;
     position: relative;
     float: left;
     margin-left: -5%;
     background-image: none;
-    margin-top: 27%;
+    margin-top: 35%;
     z-index: 101;
 }
 .prevWork .wrapper5:hover{
@@ -251,7 +251,7 @@ body{
 }
 .prevWork .wrapper6{
     width: 30%;
-    height: 15%;
+    height: 10%;
     border: 1px solid black;
     position: relative;
     float: right;
